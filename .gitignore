@@ -1,0 +1,23 @@
+# Build artifacts
+trunk/build/
+trunk/scons.signatures.dblite
+trunk/gamex86.so
+*.o
+*.os
+*.os.d
+
+# SCons cache
+.sconsign.dblite
+
+# Local build config (machine-specific)
+trunk/site.conf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / OS files
+*.ncb
+*.suo
+*.user
+.DS_Store
