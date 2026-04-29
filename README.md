@@ -5,9 +5,6 @@ Enemy Territory: Quake Wars game SDK, version 1.5.
 ## Branches
 
 ### `main`
-Unmodified SDK 1.5 source as released by id Software / Splash Damage. No changes.
-
-### `modern-linux-build`
 All fixes required to compile and run `gamex86.so` on a modern Linux host
 (GCC 14/15, Python 3, x86_64 host building i386 target). The vanilla SDK
 boots, loads maps, runs bots, and accepts connections from retail Windows
